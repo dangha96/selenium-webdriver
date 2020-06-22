@@ -38,7 +38,7 @@ public class Topic_01_CheckEnvironment {
 	}
 
 	@Test
-	public void TC_03_LoginFormDisplayed() {
+	public void TC_05_LoginFormDisplayed() {
 		// Login form displayed
 		boolean loginFormStatus =driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed();
 				System.out.print("Login Form Status = "+ loginFormStatus);
